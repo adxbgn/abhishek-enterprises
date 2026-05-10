@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf9;
+  --foreground: #0a0a0a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  /* Brand gold — aligns with logo bronze / metallic accents */
+  --color-gold-50: #faf8f4;
+  --color-gold-100: #f3ebe0;
+  --color-gold-200: #e8d9c4;
+  --color-gold-300: #d9c29a;
+  --color-gold-400: #c9a872;
+  --color-gold-500: #b8945f;
+  --color-gold-600: #9a7a4a;
+  --color-gold-700: #7d6240;
+  --color-gold-800: #5c4830;
+  --color-gold-900: #3d3020;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
