@@ -84,11 +84,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-    icon: "/abhient.jpeg",
-    shortcut: "/abhient.jpeg",
-    apple: "/abhient.jpeg",
-  },
   applicationName: "Abhishek Enterprises",
   other: {
     "geo.region": "IN-PB",
